@@ -1,0 +1,19 @@
+//page 2
+HelloWorldSample.Page2 = M.PageView.design({
+    childViews: ' header, content, footer',
+    header: M.ToolbarView.design({
+	value: 'Page 2',
+	showBackButton: YES
+    }),
+    content: M.ToolbarView.design({
+	childViews: 'label',
+	label: M.LabelView.design({
+	    value: 'What an awesome demo application!'
+	})
+    )},
+
+        footer: M.ToolbarView.design({
+            value: 'Hello World Sample',
+            anchorLocation: M.BOTTOM
+        })
+});

@@ -1,0 +1,33 @@
+//page 1
+HelloWorldSample.page1: M.PageView.design({
+
+        childViews: 'header content footer',
+
+        header: M.ToolbarView.design({
+            value: 'Page 1',
+            anchorLocation: M.TOP
+        }),
+
+        content: M.ScrollView.design({
+            childViews: 'button, label',
+	    button: M.ButtonView.design({
+		value: 'Goto Page 2',
+	    	events: {
+		    tap: {
+			target: HelloWorldSample.ApplicationController,
+			action: 'gotoPage2'
+		    }
+		}
+	    }),
+            label: M.LabelView.design({
+                value: 'Hello World.'
+            })
+        }),
+
+        footer: M.ToolbarView.design({
+            value: 'Hello World Sample',
+            anchorLocation: M.BOTTOM
+        })
+    
+});
+
