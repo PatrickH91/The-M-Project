@@ -55,7 +55,7 @@ Anschließend kann die Beispiel-App über [http://127.0.0.1:8000/HelloWorldSampl
 
 ## Code anpassen und modifizieren
 
-Für die Beispiel-App soll nun der Code angepasst werden, sodass ein Umblättern zwischen zwei unterschiedlichen Seiten möglich wird. Dazu wird zunächst der Code der Datei main.js im Unterordner app angepasst. Der Code spricht dabei fast für sich selbst. Es werden header, content und footer definiert und mit entsprechendem Inhalt versorgt.
+Für die Beispiel-App soll nun der Code angepasst werden, sodass ein Umblättern zwischen zwei unterschiedlichen Seiten möglich wird. Dazu wird zunächst der Code der Datei `main.js` im Unterordner `app` angepasst. Der Code spricht dabei fast für sich selbst. Es werden header, content und footer definiert und mit entsprechendem Inhalt versorgt.
 
 ```
 //page 1
@@ -124,7 +124,7 @@ HelloWorldSample.app = M.Application.design({
 
 });
 ```
-Anschließend muss nur noch die für den Button definierte Action gotoPage2 definiert werden. Dazu muss aufgrund des definierten Targets ein Unterordner controllers mit der Datei ApplicationController.js angelegt werden. Diese enthält folgendes Coding:
+Anschließend muss nur noch die für den Button definierte Action gotoPage2 definiert werden. Dazu muss aufgrund des definierten Targets ein Unterordner `controllers` mit der Datei `ApplicationController.js` angelegt werden. Diese enthält folgendes Coding:
 
 ```
 HelloWorldSample.ApplicationController = M.Controller.extend({
@@ -141,9 +141,10 @@ HelloWorldSample.ApplicationController = M.Controller.extend({
 
 Zuletzt müssen sämtliche Dateien gespeichert werden. Anschließend wird im Terminal noch espresso build und espresso server ausgeführt und die Beispiel-App kann über den Browser getestet werden:
 
-`espresso build`
-
-`espresso server`
+```
+espresso build
+espresso server
+```
 
 Eine ausführlichere Dokumentation findet sich bei http://panacodalabs.github.io/The-M-Docs/ unter [how to build a helloworld app](http://panacodalabs.github.io/The-M-Docs/#tutorials/how_to_build_a_helloworld_app) und [how to switch a page](http://panacodalabs.github.io/The-M-Docs/#tutorials/how_to_switch_a_page).
 
