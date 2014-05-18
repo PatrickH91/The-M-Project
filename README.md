@@ -21,7 +21,7 @@ Bei Schwierigkeiten können unter [Installing Node.js via package manager](https
 
 Ähnlich einfach gestaltet sich die Installation von Git unter Ubuntu:
 
-`apt-get install git`
+`sudo apt-get install git`
 
 ## Installation von Espresso
 
