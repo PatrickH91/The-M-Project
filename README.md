@@ -13,9 +13,11 @@ Das komplette Entwicklungsframework konnte, aufgrund von Schwierigkeiten mit Esp
 
 Auf einer aktuellen Ubuntu Distribution können Node.js und NPM über das Terminal durch Eingabe der folgenden beiden Befehle installiert werden:
 
-`sudo apt-get install nodejs`
-
-`sudo apt-get install npm`
+```
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo apt-get install nodejs-legacy
+```
 
 Bei Schwierigkeiten können unter [Installing Node.js via package manager](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) ausführlichere Hinweise aufgerufen werden.
 
