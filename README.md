@@ -1,6 +1,10 @@
 The-M-Project
 =============
 
+# Informationen
+
+Nähere Informationen über das Projekt, dessen Stärken und Konzepte können der Präsentation entnommen werden: http://slides.com/simonrech/the-m-project/
+
 # Installation
 
 Das komplette Entwicklungsframework konnte, aufgrund von Schwierigkeiten mit Espresso unter Windows, nur auf einem UNIX System (Ubuntu) erfolgreich ausgeführt werden. Daher wurden die folgenden Schritte ausschließlich in Ubuntu getestet.
