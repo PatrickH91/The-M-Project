@@ -29,7 +29,7 @@ Bei Schwierigkeiten können unter [Installing Node.js via package manager](https
 
 Dank NPM kann Espresso mit folgendem Befehl über das Ubuntu Terminal installiert werden:
 
-`npm install espresso -g`
+`sudo npm install espresso -g`
 
 Eine Installationsanteilung, um Espresso per Git zu installieren, findet sich in der [Espresso Dokumentation](https://github.com/mwaylabs/Espresso).
 
