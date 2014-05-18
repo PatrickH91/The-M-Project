@@ -180,7 +180,7 @@ Todos.app = M.Application.design({
 ```
 
 Anschließend werden in der zuvor angelegten View-Datei Header und Content definiert.
-Der Header enthält neben dem Titel **Todos ** der App auch einen ToggleView mit zwei Buttons, die das Editieren der Liste ermöglichen sollen. (_Anmerkung_: In der aktuellen Version der App funktionieren diese Buttons noch nicht).
+Der Header enthält neben dem Titel **Todos** der App auch einen ToggleView mit zwei Buttons, die das Editieren der Liste ermöglichen sollen. (_Anmerkung_: In der aktuellen Version der App funktionieren diese Buttons noch nicht).
 
 Die App soll in einem Label anzeigen, wie viele To-Do's noch erledigt werden müssen. Außerdem soll die Eingabe weiterer To-Do's möglich sein und die vollständige Liste ständig angezeigt werden. Dies wird über zwei LabelViews, ein TextFieldView und ein ListView realisiert. 
 
